@@ -5,11 +5,11 @@
 
 import random
 
-alunos = [input("Nome do primeiro aluno: "),
-          input("Nome do segundo aluno: "),
-          input("Nome do terceiro aluno: "),
-          input("Nome do quarto aluno: ")]
+alunos = [input('Nome do primeiro aluno: '),
+          input('Nome do segundo aluno: '),
+          input('Nome do terceiro aluno: '),
+          input('Nome do quarto aluno: ')]
 
 seq = random.sample(alunos, k=4)
 
-print("Primeiro: {}, Segundo: {}, Terceiro: {}, Quarto: {}".format(seq[0], seq[1], seq[2], seq[3]))
+print('Primeiro: {}, Segundo: {}, Terceiro: {}, Quarto: {}'.format(seq[0], seq[1], seq[2], seq[3]))

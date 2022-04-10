@@ -4,6 +4,6 @@
 
 from math import trunc
 
-numero = float(input("Número: "))
+numero = float(input('Número: '))
 
-print("A porção inteira de {0} é {1}".format(numero, trunc(numero)))
+print('A porção inteira de {0} é {1}'.format(numero, trunc(numero)))

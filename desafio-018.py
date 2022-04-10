@@ -4,9 +4,9 @@
 
 from math import cos, sin, tan, radians, degrees
 
-ang  = float(input("Ângulo: "))
+ang  = float(input('Ângulo: '))
 sen  = sin(radians(ang))
 coss = cos(radians(ang))
 tang = tan(radians(ang))
 
-print("Seno: {0:.2f}, Cosseno: {1:.2f}, Tangente: {2:.2f}".format(sen, coss, tang))
+print('Seno: {0:.2f}, Cosseno: {1:.2f}, Tangente: {2:.2f}'.format(sen, coss, tang))

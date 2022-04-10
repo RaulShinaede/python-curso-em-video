@@ -5,7 +5,7 @@
 
 from math import hypot
 
-cop = float(input("Qual é o valor do cateto oposto? "))
-caj = float(input("Qual é o valor do cateto adjacente? "))
+cop = float(input('Qual é o valor do cateto oposto? '))
+caj = float(input('Qual é o valor do cateto adjacente? '))
 
-print("O Valor da hipotenusa é {}".format(hypot(cop, caj)))
+print('O Valor da hipotenusa é {}'.format(hypot(cop, caj)))

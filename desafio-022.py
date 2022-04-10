@@ -7,11 +7,11 @@
 
 nome = input('Digite o nome completo: ')
 
-print("Nome em maiúsculo: {}".format(nome.upper()))
-print("Nome em minúsculo: {}".format(nome.lower()))
-print("Quantidade de letras (sem espaços): {}".format(len(nome.replace(" ", ""))))
+print('Nome em maiúsculo: {}'.format(nome.upper()))
+print('Nome em minúsculo: {}'.format(nome.lower()))
+print('Quantidade de letras (sem espaços): {}'.format(len(nome.replace(' ', ''))))
 
 primeiroNome = nome.split()[0]
 
-print("Quantidade de letras no primeiro nome: {}".format(len(primeiroNome)))
+print('Quantidade de letras no primeiro nome: {}'.format(len(primeiroNome)))
 
